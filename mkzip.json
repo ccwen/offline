@@ -1,0 +1,7 @@
+{"files":[
+"components/facebook-react/react-with-addons.js"
+,"components/component-jquery/jquery.js"
+,"components/socketio-socketio/socket.io.js"
+],
+"repos":["node_modules/ksana-document"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "offline",
+  "repo": "https://github.com/yapcheahshen/offline.git",
+  "description": "hello world",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "ksanaforge/boot": "*",
+    "ksana/document": "*",
+    "brighthas/bootstrap":"*",
+    "ksanaforge/kse": "*",
+    "offline/main": "*",
+    "offline/comp1": "*",
+    "offline/installdb": "*"
+  },
+  "development": {},
+  "paths": [
+    "components",
+    "../components",
+    "../node_modules/"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}
