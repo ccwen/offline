@@ -4,18 +4,20 @@ var installdb=Require("installdb");
 
 var main = React.createClass({
   getInitialState: function() {
-    return {bar: "world23"};
+    return {bar: "world23", online: this.online() };
+  },
+  online:function() {
+    return navigator.onLine; 
   },
   action:function() {
     var args = Array.prototype.slice.call(arguments);
     var type=args.shift();
     var res=null, that=this;
   },
-
   render: function() {
     return ( 
       <div>
-        Hello,{this.state.bar}
+        {this.state.online}
         <installdb action={this.action} />
       </div>
     );
